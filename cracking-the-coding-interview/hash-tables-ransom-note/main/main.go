@@ -106,8 +106,8 @@ func check() string {
 	}
 	if used == ransomLen {
 		return "Yes"
-	} else {
-		return "No"
 	}
+
+	return "No"
 
 }
